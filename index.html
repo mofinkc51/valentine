@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="./script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" autoplay loop>
+      <source src="etc/good_together.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="container">
+      <h1>Happy Valentine's Day ❤️</h1>
+      <sup class="gone">แตะตรงนี้</sup>
+      <div class="slideshow">
+        <img src="etc/IMG_0456.jpg" class="slide active">
+        <img src="etc/IMG_1521.PNG" class="slide">
+        <img src="etc/IMG_1532.PNG" class="slide">
+        <img src="etc/IMG_0380.jpg" class="slide">
+        <video width="300" height="400" src="etc/IMG_1993.mp4" class="slide" muted></video>
+      </div>
+      
+      <button id="show-gift">เปิดของขวัญ 🎁</button>
+  
+      <div id="gift-popup" class="hidden">
+        <div class="popup-content">
+          <p>สแกน QR Code เพื่อรับของขวัญ!</p>
+          <img width="300" height="300" src="etc/IMG_2304.PNG" alt="QR Code">
+          <p>สุขสันต์วันแห่งความรัก jub jub</p>
+          <p>"Love U kub 💕"</p>
+          <button id="close-popup">ปิด</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
